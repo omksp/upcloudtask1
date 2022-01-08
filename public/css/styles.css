@@ -1,0 +1,39 @@
+
+div {
+    width: 400px;
+   margin: 200px auto;
+   border: black 2px solid;
+   padding: 0%;
+    background-color: papayawhip;
+}
+h1{
+    margin: 0%;
+    text-align: center;
+    background-color: violet;
+}
+.label{
+    margin-left: 5%;
+    margin-top: 10px;
+    display: block;
+}
+
+input{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#submit{
+    width: 93%;
+    padding: 5px;
+    margin-left: 5%;;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: green;
+    font-size: x-large;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: greenyellow;
+}

@@ -1,0 +1,46 @@
+<!--
+    Suppose one user ‘Mohan’ wants to register then he has to fill the 
+ 1.Name 2.Email 3.Password .
+So, you have to verify Mohan's email by sending one email.
+ Inputs: 
+  Name Mohan Kumar	
+ Email   mohan123@gmail.com	
+ Password *********
+Note:  You have to store the user information in the mongoDB database.
+Hint : Use the nodemailer module.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="register">
+        <h1>Register</h1>
+        <form action="/" method="post" class="formfill">
+
+            <label for="name" class="label"> Name</label>
+            <input type="text" name="username" id="name" placeholder="enter your name">
+
+            <label for="email" class="label">Email </label>
+            <input type="email" name="email" id="email" placeholder="enter your email">
+
+            <label for="password" class="label">Password</label>
+            <input type="password" name="password" id="password" placeholder="create a password">
+
+            <button type="submit" name="register" id="submit">Register</button>
+           
+        </form>
+    </div>
+</body>
+
+</html>

@@ -36,6 +36,6 @@ app.get('/verify/:email',(req,res)=>{
 })
 
 
-app.listen(3000,()=>{
+app.listen(8080,()=>{
     console.log("Connected to port 3000")
 })
